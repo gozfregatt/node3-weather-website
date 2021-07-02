@@ -39,7 +39,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Viktor Horvath',
-        message: 'This is just a test!'
+        message: 'Click Weather and search to get live weather information. It\'s  easy :)'
     })
 })
 
